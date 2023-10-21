@@ -15,20 +15,21 @@ body {
 }
 
 .left img {
-    width: 136px;
+    width: 4vw;
+    height: 4vw;
     filter: invert(100%);
 }
 
 .left div {
     line-height: 19px;
-    font-size: 26px;
+    font-size: 1.2vw;
     text-align: center;
 }
 
 .mid {
-    display: block;
-    width: 36%;
-    margin: 29px auto;
+    display: flex;
+    flex-direction: column;
+    margin: 29px 30vw;
 }
 
 .right {
@@ -39,18 +40,20 @@ body {
 }
 
 .navbar {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.2vw;
 }
 
 .navbar li {
     display: inline-block;
-    font-size: 25px;
+    font-size: 1.4vw;
 }
 
 .navbar li a {
     color: white;
     text-decoration: none;
-    padding: 34px 23px;
+    padding: 34px 10px;
 
 }
 
@@ -69,7 +72,7 @@ body {
     padding: 4px 14px;
     border: 2px solid grey;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
 }
 
@@ -79,9 +82,9 @@ body {
 
 .container {
     border: 2px solid white;
-    margin: 106px 80px;
-    padding: 75px;
-    width: 33%;
+    margin: 26px 80px;
+    padding: 25px;
+    width: 20%;
     border-radius: 28px;
 }
 
@@ -89,16 +92,17 @@ body {
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
     display: block;
-    width: 508px;
+    width: 250px;
     padding: 1px;
     border: 2px solid black;
     margin: 11px auto;
-    font-size: 25px;
+    font-size: 15px;
     border-radius: 8px;
 }
 
 .container h1 {
     text-align: center;
+    font-size: 2vw;
 }
 
 .container button {
@@ -106,6 +110,3 @@ body {
     width: 74%;
     margin: 20px auto;
 }
-
-
-
